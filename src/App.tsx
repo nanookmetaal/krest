@@ -57,7 +57,7 @@ function App() {
 
           <Button
             size="lg"
-            className="mt-4"
+            className="mt-4 hover:bg-gray-700 cursor-pointer"
             onClick={() => {
               setBoard(emptyBoard);
               setGameOver(false);
