@@ -44,8 +44,8 @@ function App() {
 
   return (
     <>
-      <ModeToggle />
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <ModeToggle />
         <div className="flex flex-col items-center">
           <h1 className="text-2xl font-bold my-4">krest.exe</h1>
 
